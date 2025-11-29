@@ -17,7 +17,6 @@ response_goal = st.text_input(
 
 # STEP 3: Define the function to handle the LLM generation (Header Only)
 # Define the function signature; logic will be implemented in Step 4
-# STEP 4: Core Logic/API Call (Robust Version)
 def generate_email(email_text, goal):
     """Generates an email response using the local Ollama model with a robust system prompt."""
 
